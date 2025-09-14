@@ -1,0 +1,87 @@
+/* Navbar Design are Starts */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #333333;
+  font-family: "Playfair Display", serif;
+}
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px;
+}
+
+.nav-item a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff5200;
+  transition: 0.5s;
+}
+
+.logo h2 {
+  color: aliceblue;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+/* Navbar Design are Ends */
+
+/* Main Design are Starts */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: antiquewhite;
+  margin: 50px 0px 0px 50px;
+}
+
+.season-collection {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-top: 50px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.product-item {
+  border: 2px solid #be2424;
+  padding: 10px;
+}
+
+/* Main Design are Starts*/
+
+marquee {
+  color: rgb(165, 48, 48);
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+}
